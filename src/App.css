@@ -40,3 +40,23 @@
 button {
   font-size: calc(10px + 2vmin);
 }
+
+.grid-responsive {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cart{
+  border: solid 1px #ccc;
+}
+
+.item{
+  border: solid 1px #ccc;
+  padding: 10px;
+}
+
+.box-buttons{
+  display: flex;
+  justify-content: space-evenly;
+}
